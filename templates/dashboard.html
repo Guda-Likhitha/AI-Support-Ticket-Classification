@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Ticket Dashboard</h2>
+
+<table border="1">
+
+<tr>
+<th>Title</th>
+<th>Category</th>
+<th>Priority</th>
+</tr>
+
+{% for ticket in tickets %}
+
+<tr>
+
+<td>{{ticket.title}}</td>
+
+<td>{{ticket.category}}</td>
+
+<td>{{ticket.priority}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+{% endblock %}
