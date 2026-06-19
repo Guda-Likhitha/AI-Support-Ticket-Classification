@@ -132,7 +132,7 @@ Add screenshots of:
 
 - Python Developer
 - AI & Data Science Enthusiast
-- Computer Science Engineering Student
+
 
 ## 📜 License
 
